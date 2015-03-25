@@ -1,4 +1,4 @@
-/* -*- Mode: C++ -*- */
+/* -*- Mode: cpp -*- */
 
 #include "sfs_logger.h"
 
