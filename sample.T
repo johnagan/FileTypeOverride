@@ -15,8 +15,8 @@ sfs::logger_t::~logger_t ()
   warn << "killing sfs_logger[" << _pid << "]\n";
   *_destroyed = true;
   _pid = -1;
-  _x = NULL;
-  _cli = NULL;
+  _x = 1;
+  _cli = 1;
 }
 
 //-----------------------------------------------------------------------
